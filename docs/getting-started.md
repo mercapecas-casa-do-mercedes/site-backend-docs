@@ -21,7 +21,7 @@ Antes de começar, certifique-se de que possui o seguinte instalado:
 ## Passo 1 — Clonar o Repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/mercapecas-casa-do-mercedes/site-backend-docs.git>
 cd site-backend
 ```
 
