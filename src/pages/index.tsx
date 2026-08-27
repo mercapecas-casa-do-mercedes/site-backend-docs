@@ -1,43 +1,18 @@
 import type { ReactNode } from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Documentação
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import HomepageHero from '@site/src/components/HomepageHero';
+import QuickAccess from '@site/src/components/QuickAccess';
 
 export default function Home(): ReactNode {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`inicio`}
-      description="Bem-vindo ao Mercapecas - Backend">
-      <HomepageHeader />
+      title="Início"
+      description="Documentação técnica oficial do Mercapecas Backend - Guia para Desenvolvedores"
+    >
+      <HomepageHero />
       <main>
-        <HomepageFeatures />
+        <QuickAccess />
       </main>
     </Layout>
   );

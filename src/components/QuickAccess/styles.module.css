@@ -1,0 +1,138 @@
+.quickAccessSection {
+  padding: 4rem 0;
+  width: 100%;
+  background-color: var(--ifm-background-color);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.5px;
+}
+
+.sectionSubtitle {
+  font-size: 1.15rem;
+  color: var(--ifm-color-secondary-darkest);
+  opacity: 0.85;
+}
+
+.grid {
+  row-gap: 1.75rem;
+}
+
+.cardLink {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+  height: 100%;
+}
+
+.card {
+  padding: 1.75rem 1.5rem;
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  flex-direction: column;
+}
+
+.cardLink:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(133, 46, 46, 0.12);
+  border-color: var(--ifm-color-primary);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.cardIcon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.cardBadge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  background-color: var(--ifm-color-primary-lightest);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--ifm-heading-color);
+}
+
+.cardDescription {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ifm-color-secondary-darkest);
+  opacity: 0.88;
+  margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+.cardArrow {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.cardLink:hover .cardArrow {
+  transform: translateX(4px);
+}
+
+/* Modo escuro */
+[data-theme='dark'] .card {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .cardLink:hover .card {
+  border-color: var(--ifm-color-primary-lighter);
+  box-shadow: 0 10px 28px rgba(194, 37, 37, 0.25);
+}
+
+[data-theme='dark'] .cardBadge {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+[data-theme='dark'] .cardArrow {
+  color: var(--ifm-color-primary-lighter);
+}
+
+@media screen and (max-width: 996px) {
+  .quickAccessSection {
+    padding: 2.5rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
