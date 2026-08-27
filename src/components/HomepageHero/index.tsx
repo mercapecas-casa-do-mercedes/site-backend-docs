@@ -14,7 +14,7 @@ export interface HeroProps {
 }
 
 export default function HomepageHero({ 
-  title = "📖 Documentação Técnica Mercapecas Backend", 
+  title = "Documentação Técnica Mercapecas Backend", 
   subtitle = "Guia completo de arquitetura, referência de APIs RESTful, módulos de negócio e convenções para o time de desenvolvimento.",
   ctaText = "Primeiros Passos",
   ctaLink = "/docs/getting-started",

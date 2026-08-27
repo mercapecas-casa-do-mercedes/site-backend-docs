@@ -47,6 +47,10 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogTitle: 'Atualizações',
+          blogDescription: 'Resumo das últimas funcionalidades e atualizações inseridas na documentação do backend.',
+          blogSidebarTitle: 'Últimas Atualizações',
+          routeBasePath: 'atualizacoes',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -87,7 +91,7 @@ const config: Config = {
           position: 'left',
           label: 'Documentação',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/atualizacoes', label: 'Atualizações', position: 'left' },
         {
           href: 'https://github.com/mercapecas-casa-do-mercedes/site-backend',
           label: 'Repositório',
@@ -128,8 +132,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Atualizações',
+              to: '/atualizacoes',
             },
             {
               label: 'GitHub',
