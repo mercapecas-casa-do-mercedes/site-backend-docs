@@ -6,7 +6,7 @@ description: "Referência completa de todas as variáveis de ambiente utilizadas
 
 # Configuração de Variáveis de Ambiente
 
-O carregamento e a validação das variáveis de ambiente são centralizados em [`src/config/env.ts`](../../src/config/env.ts). O módulo usa **dotenv** para ler o arquivo `.env` e falha na inicialização caso alguma variável obrigatória esteja ausente.
+O carregamento e a validação das variáveis de ambiente são centralizados em [`src/config/env.ts`]. O módulo usa **dotenv** para ler o arquivo `.env` e falha na inicialização caso alguma variável obrigatória esteja ausente.
 
 ---
 

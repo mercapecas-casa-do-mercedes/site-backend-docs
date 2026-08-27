@@ -1,26 +1,26 @@
-# Website
+# Site
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Este site foi desenvolvido usando [Docusaurus](https://docusaurus.io/), um gerador moderno de sites estáticos.
 
-## Installation
+## Instalação
 
 ```bash
 npm install
 ```
 
-**Note**: feel free to use the package manager of your choice.
+**Observação**: fique à vontade para usar o gerenciador de pacotes de sua preferência.
 
-## Local Development
+## Desenvolvimento Local
 
 ```bash
 npm run start
 
-or 
+ou
 
 npm run serve
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Esse comando inicia um servidor de desenvolvimento local e abre uma janela do navegador. A maioria das alterações é refletida automaticamente, sem a necessidade de reiniciar o servidor.
 
 ## Build
 
@@ -28,20 +28,20 @@ This command starts a local development server and opens up a browser window. Mo
 npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Esse comando gera o conteúdo estático dentro do diretório `build`, que pode ser hospedado usando qualquer serviço de hospedagem de conteúdo estático.
 
-## Deployment
+## Deploy
 
-Using SSH:
+Usando SSH:
 
 ```bash
 USE_SSH=true npm run deploy
 ```
 
-Not using SSH:
+Sem usar SSH:
 
 ```bash
-GIT_USER=<Your GitHub username> npm run deploy
+GIT_USER=<Seu usuário do GitHub> npm run deploy
 ```
 
-If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Se você estiver usando o GitHub Pages para hospedagem, esse comando é uma maneira conveniente de gerar o site e enviá-lo para a branch `gh-pages`.

@@ -12,7 +12,7 @@ Este tutorial mostra como integrar um formulário HTML/JavaScript com o endpoint
 
 ## Pré-requisitos
 
-- API do MercaPeças rodando (veja o [Guia de Início Rápido](./getting-started))
+- API do MercaPeças rodando (veja o [Guia de Início Rápido](../getting-started))
 - Frontend servido em uma das origens configuradas em `CORS_ORIGIN` (ex: `http://localhost:5173`)
 
 ---
