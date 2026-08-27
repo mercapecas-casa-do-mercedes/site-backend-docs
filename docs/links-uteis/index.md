@@ -10,6 +10,17 @@ Referência centralizada de todas as plataformas e ferramentas utilizadas na ges
 
 ---
 
+## 🗂️ Resumo de Acessos
+
+| Plataforma | URL | Finalidade |
+|---|---|---|
+| ClickUp | [app.clickup.com](https://app.clickup.com) | Gestão de tarefas e backlog |
+| Resend | [resend.com](https://resend.com) | Envio de e-mails transacionais |
+| Bitwarden | [vault.bitwarden.com](https://vault.bitwarden.com) | Gestão de senhas e chaves de API |
+| HostGator | [hostgator.com.br](https://www.hostgator.com.br) | Hospedagem VPS do backend |
+
+---
+
 ## 📋 Gestão de Tarefas
 
 ### ClickUp
@@ -94,13 +105,4 @@ pm2 restart mercapecas-backend
 ss -tlnp | grep 3000
 ```
 
----
 
-## 🗂️ Resumo de Acessos
-
-| Plataforma | URL | Finalidade |
-|---|---|---|
-| ClickUp | [app.clickup.com](https://app.clickup.com) | Gestão de tarefas e backlog |
-| Resend | [resend.com](https://resend.com) | Envio de e-mails transacionais |
-| Bitwarden | [vault.bitwarden.com](https://vault.bitwarden.com) | Gestão de senhas e chaves de API |
-| HostGator | [hostgator.com.br](https://www.hostgator.com.br) | Hospedagem VPS do backend |
