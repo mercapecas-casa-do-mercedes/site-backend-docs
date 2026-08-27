@@ -13,7 +13,7 @@
 >
 > Esse fluxo facilita o uso de **agentes de Inteligência Artificial (IA)** para gerar e atualizar os arquivos Markdown da documentação.
 >
-> Mantendo os arquivos Markdown organizados e sincronizados entre os dois projetos, os agentes de IA poderão trabalhar diretamente sobre a documentação de forma mais simples e consistente.
+> Editando os arquivos Markdown na pasta do site, os agentes de IA poderão trabalhar diretamente na documentação estando contextualisados nas novas atualizações recém-inseridas no projeto.
 >
 > **Fluxo recomendado:**
 >
