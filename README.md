@@ -19,7 +19,7 @@
 >
 > `site-backend/docs` → atualizar a documentação → copiar os arquivos → `backend-docs/docs`
 
-Este site foi desenvolvido usando [Docusaurus](https://docusaurus.io/), um gerador moderno de sites estáticos.
+Este site foi desenvolvido usando [Docusaurus](https://docusaurus.io/), uma automação para geração de docs de forma ágil. 
 
 ## Instalação
 
