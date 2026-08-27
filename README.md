@@ -1,25 +1,23 @@
 # Site
 
-
-:::warning Atenção — Sincronização da documentação
-
-A documentação deve ser **sempre atualizada primeiro na pasta `docs` do projeto `site-backend`**, que é o projeto responsável pelo site.
-
-Após realizar as alterações, os arquivos Markdown devem ser **copiados e colados na pasta `docs` deste projeto (`backend-docs`)**.
-
-Dessa forma, manteremos a documentação dos dois projetos sempre sincronizada.
-
-### Por que seguir esse processo?
-
-Esse fluxo facilita o uso de **agentes de Inteligência Artificial (IA)** para gerar e atualizar os arquivos Markdown da documentação.
-
-Mantendo os arquivos Markdown organizados e sincronizados entre os dois projetos, os agentes de IA poderão trabalhar diretamente sobre a documentação de forma mais simples e consistente.
-
-**Fluxo recomendado:**
-
-`site-backend/docs` → atualizar a documentação → copiar os arquivos → `backend-docs/docs`
-
-:::
+> [!WARNING]
+> ## Atenção — Sincronização da documentação
+>
+> A documentação deve ser **sempre atualizada primeiro na pasta `docs` do projeto `site-backend`**, que é o projeto responsável pelo site.
+>
+> Após realizar as alterações, os arquivos Markdown devem ser **copiados e colados na pasta `docs` deste projeto (`backend-docs`)**.
+>
+> Dessa forma, manteremos a documentação dos dois projetos sempre sincronizada.
+>
+> ### Por que seguir esse processo?
+>
+> Esse fluxo facilita o uso de **agentes de Inteligência Artificial (IA)** para gerar e atualizar os arquivos Markdown da documentação.
+>
+> Mantendo os arquivos Markdown organizados e sincronizados entre os dois projetos, os agentes de IA poderão trabalhar diretamente sobre a documentação de forma mais simples e consistente.
+>
+> **Fluxo recomendado:**
+>
+> `site-backend/docs` → atualizar a documentação → copiar os arquivos → `backend-docs/docs`
 
 Este site foi desenvolvido usando [Docusaurus](https://docusaurus.io/), um gerador moderno de sites estáticos.
 
